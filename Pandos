@@ -1,0 +1,7 @@
+echo "# Panda-test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M Panda-test
+git remote add origin https://github.com/pandos2013/Panda-test.git
+git push -u origin Panda-test
